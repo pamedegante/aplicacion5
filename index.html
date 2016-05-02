@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QUINTA APLICACION</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/d.jpg','imagenes/j.jpg','imagenes/c.jpg','imagenes/2.jpg','imagenes/n.jpg','imagenes/ti.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="a">
+    <h1><b>DIA INTERNACIONAL DE LA MADRE TIERRA</b></h1>
+    
+</div>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:400px;height:100px;max-width:165%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<div data-role="main" class="ui-content">
+   </div>
+   <div>
+
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> FECHA</h2>
+   <p> Muestra la fecha en que este se conmemora </p>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> QUE ES LO QUE SE CONMEMORA</h2>
+   <p>Nos permite saber que es lo que se conmemora</p>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> COMO PODEMOS EVITAR EL DAÑO A LA TIERRA</h2>
+   <p> muestra como podemos evitar el daño a la tierra</p></a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> CAMBIO CLIMATICO</h2>
+   <p> muestra en que afecta el cambio climatico</p>
+   </a>
+   </li>   
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>MEDIDAS DE CUIDADO AL PLANETA</h2>
+     <p>Muestra las medidas del cuidado del planeta</p>
+     </a>   
+   </li>   
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> IMPORTANCIA DEL CUIDADO DEL PLANETA</h2>
+     <p>Muestra la importancia que tiene el cuidar de nuesrto planeta</p>
+     </a>   
+   </li> 
+      <li class="ui-first-child ui-last-child">
+     <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> LA IMPORTANCIA DE LAS 3 &quot;R&quot;</h2>
+     <p>Muestra la importancia de las 3 &quot;r&quot;</p>
+     </a>   
+   </li>   
+      <li class="ui-first-child ui-last-child">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2> REFLEXION ACERCA DEL CUIDADO DE LA TIERRA </h2>
+     <p>Muestra una pequeña reflexion acerca del cuidado de la tierr</p>
+     </a>   
+   </li>     
+   </ul>
+  </div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+   
+   </div>
+    <div>
+    <h4>Aplicacion CINCO </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4>
+    </div>
+    </div>
+    </div>
+    
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>FECHA </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagen</h2>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/d.jpg',1)"><img src="imagenes/7.jpg" width="287" height="175" id="Image32"></a> 
+       </div>
+       <p> En este día, representantes de más de 170 países se reúnen en la Sede de las Naciones Unidas en Nueva York para firmar el Acuerdo de París sobre el Cambio Climático. Este pacto histórico, junto con la Agenda 2030 para el Desarrollo Sostenible, tiene la capacidad de transformar nuestro mundo.</p>
+        <img src="imagenes/6.jpg" width="50%" height="50%">
+       <p>Este año, el Día de la Madre Tierra coincide con la ceremonia de firma del Acuerdo de París sobre el cambio climático, que tendrá lugar en la sede de las Naciones Unidas en Nueva York. El Acuerdo fue aprobado por los 196 Estados partes de la Convención Marco sobre el Cambio Climático en París el 12 de diciembre de 2015. </p> 
+        <img src="imagenes/8.jpg" width="50%" height="50%">
+       <p>En el acuerdo, todos los países se comprometieron a trabajar para limitar el aumento de la temperatura global por debajo de los 2 grados centígrados, y dados los graves riesgos, a esforzarse por lograr que sea menos de 1,5 grados centígrados. La ceremonia se lleva a cabo en el primer día que el Acuerdo estará abierto para la firma, marcando el primer paso para asegurar que el Acuerdo entre en vigor jurídico tan pronto como sea posible.</p> 
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46" >
+    <h4> PAMELA DEGANTE CRUZ</h4>
+       </div>
+     </div>
+     </div>
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>QUE SE CONMEMORA </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       
+       <img src="imagenes/d.jpg" width="50%" height="50%">
+       <p>El 22 de abril de cada año se celebra el Día Mundial de la Tierra. Su nacimiento viene del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable.
+ </p>
+       <img src="imagenes/e.jpg" width="50%" height="50%">
+       <p> El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Se logró el apoyo de políticos de distintas tendencias, ricos y pobres, citadinos y granjeros, magnates y líderes sindicales. </p>
+     
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/c.jpg',1)"><img src="imagenes/g.jpg" width="259" height="194" id="Image40"></a>
+<p> Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a
+  Nuestro Planeta en Cifras la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extinción. A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor.</p>
+       
+       </div>
+        </div>
+       <div data-role="footer"data-theme="a">
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+       </div>
+       </div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>COMO EVIRTAR EL DAÑO A LA TIERRA  </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <p>Las actividades humanas amenazan el equilibrio natural de la Tierra. Talar árboles, contaminar el aire y el agua o dejar que los desiertos se extiendan son las formas mediante las que el ser humano altera el medio ambiente. 
+<p>
+<div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagen</h2>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','imagenes/j.jpg',1)"><img src="imagenes/h.jpg" width="295" height="171" id="Image38"></a> 
+       </div>
+       <p> Si los daños causados al ambiente en que vivimos continúan, la Tierra pronto estará en peligro. Podría dejar de ser un planeta vivo.</p>
+       
+     <div data-role="collapsible" data-content-theme="false"> 
+     <h2> imagen </h2>
+       <img src="imagenes/ta.jpg" width="50%" height="50%">
+       </div>
+       <p>Las consecuencias de nuestra forma de vida son visibles hoy día en los bosques, sobre todo en los bosques tropicales; también en las costas y otros medios acuáticos.<br> 
+
+La contaminación es uno de los mayores peligros que amenazan al medio ambiente. Todas las partes de la biosfera (tierra, agua y aire) sufren contaminación.  <p>
+
+       <img src="imagenes/e.jpg" width="50%" height="50%">
+       
+       </div>
+       </div>
+      <div data-role="footer"data-theme="a">
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+       </div>
+       </div>
+       
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> CAMBIO CLIMATICO  </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div> 
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagen</h2>
+        
+       <img src="imagenes/2.jpg" width="50%" height="50%">
+       </div>
+       <P>  El clima de la Tierra nunca ha sido estático. Como consecuencia de alteraciones en el balance energético, está sometido a variaciones en todas las escalas temporales, desde decenios a miles y millones de año.</P>
+     <img src="imagenes/1.jpg" width="50%" height="50%">
+      
+       
+<p> Entre las variaciones climáticas más destacables que se han producido a lo largo de la historia de la Tierra, figura el ciclo de unos 100.000 años, de períodos glaciares, seguido de períodos interglaciares.  </P>
+         
+          <img src="imagenes/5.jpg" width="50%" height="50%">
+       <P> Se llama cambio climático a la variación global del clima de la Tierra. Es debido a causas naturales y también a la acción del hombre y se producen a muy diversas escalas de tiempo y sobre todos los parámetros climáticos: temperatura, precipitaciones, nubosidad, etc. </P>
+      <img src="imagenes/k.jpg" width="50%" height="50%">
+      
+       <P> El término "efecto de invernadero" se refiere es la retención del calor del Sol en la atmósfera de la Tierra por parte de una capa de gases en la atmósfera. Sin ellos la vida tal como la conocemos no sería posible, ya que el planeta sería demasiado frío.  Entre estos gases se encuentran el dióxido de carbono, el óxido nitroso y el metano, que son liberados por la industria, la agricultura y la combustión de combustibles fósiles.</P>
+       
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','imagenes/ti.jpg',1)"><img src="imagenes/medio-ambiente-cambio7.jpg" width="50%" height="50%" id="Image41"></a>
+<p> </P>
+       
+       </div>
+       </div>
+    <div data-role="footer"data-theme="a">
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+       </div>
+       </div>
+       
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> MEDIDAS DEL CUIDADO DEL PLANETA </h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+       <img src="imagenes/agua.jpg" width="50%" height="50%"> 
+       <p> 1. Ahorra agua
+Mantén cerrado el grifo mientras no necesites el agua y siempre que puedas reutilízala.<br>
+
+2. Usa menos el automóvil
+Usa el transporte público, bicicleta, camina o comparte tu coche con los vecinos cuando engas que usarlo.
+</p>
+       <img src="imagenes/luz.jpg" width="50%" height="50%"> 
+       <p>3. Ahorra energía eléctrica
+Cambiar tu calentador de gas por uno solar.
+Apaga las luces que no utilices y desconecta los aparatos eléctricos.
+4. Disminuye tus desperdicios
+De preferencia no uses artículos desechables, ni recipientes de aluminio y de plástico. </p>
+       <img src="imagenes/rec.jpg" width="50%" height="50%"> 
+       <p> 5. Recicla
+Reducir, reutilizar y reciclar, es la clave de un mejor medio ambiente.<br>
+
+6. Compra sabiamente.
+Elige productos elaborados localmente, pues así se reduce el consumo de combustibles empleados para su transporte.</p>
+       <img src="imagenes/sol.jpg" width="50%" height="50%"> 
+       <p> 
+7. Aprovecha la energía solar
+El sol es inigualable como fuente de luz natural, pero también puedes usar su energía para dar electricidad a los aparatos de tu casa o gadgets como tu smartphone o Tablet. <br>
+
+8. Usa menos detergentes industriales
+Hay productos naturales que pueden dar los mismos resultados cuando de limpiar se refiere. </p>
+       <img src="imagenes/arbol.jpg" width="50%" height="50%"> 
+       <p>
+
+9. Cuida los pulmones de la Tierra
+Cuida los bosques no provocando incendios, tirando basura o maltratando a los árboles. </p>
+<img src="imagenes/basura.jpg" width="50%" height="50%"> 
+
+<p> 10. Cuidado con lo que tiras al drenaje y en las calles
+No tires basura en las calles, no sólo contamina también tapa las coladeras y provoca inundaciones, tampoco tires el aceite que no sirva por las cañerías ni baterías. </p>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagen</h2>
+       <img src="imagenes/j.jpg" width="275" height="183" id="Image"> </div>
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a">
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+       </div>
+       </div>
+      
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>IMPORTANCIA DEL CUIDADO DEL PLANETA </h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+        <img src="imagenes/pa.jpg" width="50%" height="50%">
+       <P> El medio ambiente es muy importante, porque de el obtenemos agua, comida, combustibles y materias primas que sirven para fabricar las cosas que utilizamos diariamente. El es nuestro hogar, de el depende nuestra existencia humana. Al abusar o hacer mal uso de los recursos naturales que se obtienen del medio ambiente, lo ponemos en peligro y lo agotamos. El aire y el agua están contaminándose, los bosques están desapareciendo,debido a los incendios y a la explotación excesiva y los animales se van extinguiendo por el exceso de la caza y de la pesca. </P>
+    <a href="http://www.cinu.org.mx/ninos/html/onu_n5.htm"> dar click aqui para mayor informacion </a>
+    <br>
+    <br>
+       <img src="imagenes/a.jpg" width="50%" height="50%">
+       <P> Por lo consiguiente, si el medio ambiente es nuestra casa, porque lo estamos destruyendo? el nos brinda todos los recursos indispensable para la continuidad de la vida en el planeta. Es nuestra casa, cuidemos y conservemos de ella no solo por nosotros, sino por nuestros hijos y nietos que merecen vivir en mundo mejor. Demostremole la importancia que el se merece para nosotros los humanos.</P>
+       <img src="imagenes/hum.jpg" width="50%" height="50%">
+        
+       </div>
+       </div>
+      <div data-role="footer"data-theme="a">
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+       </div>
+       </div>
+     
+       
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> IMPORTANCIA DE LAS 3 R</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       
+       <img src="imagenes/t.jpg" width="50%" height="50%">
+       
+       <p>  Es práctico, es como una ayuda memoria para luchar contra la contaminación ambiental. 
+Tiene los tres pasos básicos, ya dice, reducir, se supone que se trata de reducir la basura, de varias maneras, en primer termino, bajando el consumo, y optando al realizar la compra por los envoltorios que sean reciclables 
+Reutilizar, podemos reutliizar varios de los productos que compramos tiene valores adicionales, ej. cartones, perchas, sobres, etc </p>
+        <img src="imagenes/5.jpg" width="50%" height="50%">
+       <p>No te voy a explicar aquí el significado de las tres R porque me imagino que ya lo sabes. Vamos a centrarnos en su importancia. 
+Una de las cosas que en la actualidad está perjudicando el medio ambiente es la basura. Las personas nada más por el hecho de existir ya generan contaminación sin embargo, hay cantidad de materiales y productos que utilizamos y luego desechamos.  </p>
+         <img src="imagenes/p.jpg" width="50%" height="50%">
+         <p> Esos materiales usualmente no son degradables o biodegradables y sy debemos desecharlos. A esos residuos generalmente sólidos los llamamos con una palabra genérica: BASURA. Con el crecimiento de la población la basura está pasando a ser un problema ambiental de gran importancia, sobre todo si pensamos que el 90% de esa basura no tiene por qué ser tirada EN la Naturaleza, o en el mejor de los casos en los vertederos. </p>
+          <img src="imagenes/r.jpg" width="50%" height="50%">
+         
+
+       </div>
+       </div>
+     <div data-role="footer"data-theme="a">
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+       </div>
+     </div>
+     </div>
+     
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> REFLEXION ACERCA DEL CUIDADO DEL PLANETA</h1>
+      </div>
+       <div data-role="content" align="center">
+       <div>
+       <div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagenes</h2>
+       <img src="imagenes/l.jpg" width="275" height="183"> </div>
+       <p>La preocupación en torno al daño que la actividad humana produce a nuestro planeta ha ido creciendo el los últimos años debido a fenómenos como elcalentamiento global, y la cada vez más alarmante escasez del agua<br>
+         <img src="imagenes/m.jpg" width="50%" height="50%"></p>
+       </div>
+       <p>
+  . Es por eso que desde 1970 el 22 de abril se dedica a conmemorar el Día de la Tierra como un recordatorio sobre la importancia de proteger el medio ambiente.
+</p>
+        <div data-role="collapsible" data-content-theme="false"> 
+       <h2> imagen</h2>
+        <img src="imagenes/3.jpg" width="50%" height="50%"><br>
+        
+       
+       <p> Aunque se trata de una causa que hay que tener presente en la vida cotidiana, esta fecha se ha convertido en una excelente oportunidad para realizar acciones que difundan el tema, haciendo conciencia y contribuyendo a disminuir el impacto ambiental.</p>
+        </div>
+       <!-- Start WOWSlider.com -->
+<iframe src="visor2/indexwow2.html" style="width:400px;height:100px;max-width:165%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+       
+ 
+</div>
+<div data-role="footer"data-theme="a" >
+       <center><h4>Aplicacion CINCO, DCP </h4>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    <h4> PAMELA DEGANTE CRUZ</h4></center>
+</div>
+     </div>
+       
+       
+</body>
+</html>
